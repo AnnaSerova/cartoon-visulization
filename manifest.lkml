@@ -12,7 +12,7 @@ constant: VIS_ID {
 
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://cdn.jsdelivr.net/gh/Dutchgoose/xkcd-visulization@master/xkcd.js"
+  url: "https://cdn.jsdelivr.net/gh/Dutchgoose/xkcd-visulization@42388d70e8ce233ac80364b31a7f17de540cc96b/xkcd.js"
   label: "@{VIS_LABEL}"
   dependencies: []
 }

@@ -1,0 +1,20 @@
+{
+  "label": "XKCD Visualization",
+  "category_label": "Plug-ins",
+  "branding": {
+    "image_uri": "https://wwwstatic-a.lookercdn.com/blocks/logos/aws.png",
+    "tagline": "A cartoony twist on data visualization."
+  },
+
+    "constants": {
+        "VIS_LABEL": {
+            "label": "Visualization Label",
+            "description": "This will be shown in the UI"
+        },
+        "VIS_ID": {
+            "label": "Visualization Id",
+            "description": "This ID must be unique across all Visualizations",
+            "value_constraint": "visualization"
+        }
+    }
+}

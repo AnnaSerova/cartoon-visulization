@@ -1,18 +1,18 @@
 project_name: "xkcd_visualization_project"
 
 constant: VIS_LABEL {
-  value: "XKCD"
+  value: "Cartoon"
   export: override_optional
 }
 
 constant: VIS_ID {
-  value: "xkcd_vis"
+  value: "cartoon_vis"
   export: override_optional
 }
 
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://cdn.jsdelivr.net/gh/Dutchgoose/xkcd-visulization@ec9c9299bc6c901904bc80e420488b52c2a04c16/xkcd.js"
+  url: "https://cdn.jsdelivr.net/gh/Dutchgoose/cartoon-visulization@addf1c8471e1dac0728c2a01cd99eee8aeed5534/cartoon.js"
   label: "@{VIS_LABEL}"
   dependencies: []
 }

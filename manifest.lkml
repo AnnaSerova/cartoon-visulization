@@ -1,4 +1,4 @@
-project_name: "xkcd_visualization_project"
+project_name: "cartoon_visualization_project"
 
 constant: VIS_LABEL {
   value: "Cartoon"
